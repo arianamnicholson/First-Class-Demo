@@ -1,0 +1,56 @@
+fruit = "apple"
+len(fruit)
+length = len(fruit)
+last = fruit[length-1]
+last
+
+greeting = "hello"
+letter = greeting [:3]
+print(letter)
+
+greeting = "hello"
+letter = greeting [3:]
+print(letter)
+
+fruit = "banana"
+index = 0
+while index < len(fruit):
+  letter = fruit[index]
+  print(letter)
+  index = index +1
+
+letter = "LB" 
+suffix = "ike"
+for characters in letter:
+  print(characters + suffix)
+
+for i in range (0,5):
+  print(i)
+
+for jelly in range (0,5):
+  print("jelly")
+
+strg1 = "Mary"
+strg2 = "mac"
+#value of small m and Capital M are different 
+
+print (strg1 < strg2)
+
+strg1 = "Mary"
+strg2 = "mac"
+print (strg1.lower() < strg2.lower())
+
+greeting = 'Hello, world!'
+newgreeting = 'J' + greeting[1:]
+print newgreeting
+
+word = 'Zanzibar'
+count = 0
+for letter in word.lower():
+  if letter == 'z':
+    count = count + 1
+print(count)
+
+country = "Tanzania"
+country_uppercase = country.upper()
+print country_uppercase

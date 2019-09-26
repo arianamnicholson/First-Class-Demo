@@ -1,0 +1,53 @@
+text = "this is a text fopm a #Tweet."
+words = text.split() 
+print(words)
+a=[1,2,3]
+b=[4,5,6]
+c=a+b
+print (c)
+print [a]*3
+
+features = ['point', 'line', 'polygon']
+print(features)
+'point' in features
+
+historylist = ['Mumbai','was','formerly','Bombay.']
+mystr = ' '.join(historylist)
+print(mystr)
+
+#this prints in backwards order
+cities = ["Jakarta",  "Mumbai", "Nairobi"]
+print cities [0]
+print (cities[::-1])
+
+#this reverses the whole list
+cities.reverse()
+print (cities)
+cities.reverse()
+print (cities)
+
+#variable name [index] = "BOM" 
+#cities[1] = "BOM"
+
+numbers = [17, 123]
+print (numbers)
+numbers[0] = 5
+print(numbers)
+
+#manipulating a list
+sadlist = ['a','b','c','d']
+sadlist[1:3] = 'x','y'
+print sadlist
+
+letterlist = ['a','d','f']
+letterlist [1:1] = ['b','c']
+letterlist [4:4] = ['e']
+print (letterlist)
+
+letterlist [1:3] = []
+print (letterlist)
+
+#use an operator instead
+a = ['mean', 'median', 'mode']
+del a [1]
+print a

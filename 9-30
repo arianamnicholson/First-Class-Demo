@@ -1,0 +1,37 @@
+prime_nums = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
+#print list of sqaures
+for i in prime_nums:
+  print i*i
+
+#from math import sqrt
+#print sqrt [0:10] (prime_nums)
+
+def writelist(name):
+  for x in name:
+    print x
+#define a function that prints any list
+writelist(prime_nums)
+
+print '   '
+
+countrylist = ['UGA', 'KEN', 'TZA', 'TZA', 'SDN', 'KEN', 'KEN']
+def excercise_3 (anylist):
+  newlist = []
+  for x in anylist:
+    if x not in newlist:
+      newlist.append(x)
+  for x in newlist:
+    print x
+  
+excercise_3(countrylist)
+
+price_lookup = {'rice':1.99, 'oil':1.99, 'chicken':4.99}
+print(price_lookup['oil'])
+
+eng2fr = {}
+eng2fr['one'] = 'une'
+eng2fr['two'] = 'deux'
+eng2fr['three'] = 'twa'
+
+#eng2fr = ['four':'quatre', 'five':'cinq', 'four':'four']
+print(eng2fr)

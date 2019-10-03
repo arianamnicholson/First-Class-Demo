@@ -1,0 +1,6 @@
+legend = {0: 'no value', 1:'deciduous', 2:'conifers', 3:'industrial', 4:'residential', 5:'water bodies', 6:'agricultural'}
+def read(dictionary):
+  for (key, values) in dictionary.items():
+    print key, values
+
+read (legend)
